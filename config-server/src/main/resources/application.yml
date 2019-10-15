@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://www.github.com/wangshiz/springcloudconfig.git
+          searchPaths: respo
+        default-label: master
+
+
