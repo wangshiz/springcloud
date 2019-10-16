@@ -8,8 +8,11 @@ spring:
     config:
       server:
         git:
-          uri: https://www.github.com/wangshiz/springcloudconfig.git
+          uri: https://github.com/wangshiz/springcloudconfig.git
           searchPaths: respo
+          username:
+          password:
         default-label: master
+
 
 
